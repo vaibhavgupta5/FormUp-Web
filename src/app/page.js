@@ -18,7 +18,7 @@ export default function Home() {
             <div className="p-2 bg-orange-500 rounded-lg backdrop-blur-sm">
               <Zap className="w-5 h-5 stroke-white" />
             </div>
-            Formup
+            FormUp
           </motion.div>
           <motion.div
             initial={{ opacity: 0, x: 20 }}
@@ -68,7 +68,7 @@ export default function Home() {
 
             <h1 className="text-5xl md:text-7xl font-bold text-gray-900 mb-6">
               <span className="bg-gradient-to-r from-orange-500 to-yellow-400 bg-clip-text text-transparent">
-                Formup
+                FormUp
               </span>
             </h1>
             
@@ -85,8 +85,8 @@ export default function Home() {
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="bg-gradient-to-r from-orange-500 to-yellow-400 text-white px-8 py-4 rounded-lg text-lg font-semibold shadow-lg hover:shadow-xl transition-shadow"
-              aria-label="Download Formup Chrome Extension"
+              className="bg-gradient-to-r from-orange-500 to-yellow-400 text-white px-8 py-4 rounded-lg cursor-pointer text-lg font-semibold shadow-lg hover:shadow-xl transition-shadow"
+              aria-label="Download FormUp Chrome Extension"
               onClick={() => window.open('https://github.com/vaibhavgupta5/FormUp', '_blank')}
             >
               Get the Extension
@@ -104,7 +104,7 @@ export default function Home() {
             transition={{ duration: 0.6 }}
             className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-16"
           >
-            Why Choose Formup?
+            Why Choose FormUp?
           </motion.h2>
           
           <div className="grid md:grid-cols-3 gap-8">
@@ -179,7 +179,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="border-t border-gray-100 px-6 py-8">
         <div className="max-w-6xl mx-auto text-center text-gray-600">
-          <p>&copy; 2025 Formup. Made with ❤️ by Vaibhav.</p>
+          <p>&copy; 2025 FormUp. Made with ❤️ by Vaibhav.</p>
         </div>
       </footer>
     </div>
