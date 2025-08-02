@@ -1,6 +1,7 @@
-'use client'
-import { motion } from 'framer-motion'
-import Link from 'next/link'
+"use client";
+import { motion } from "framer-motion";
+import { Zap } from "lucide-react";
+import Link from "next/link";
 
 export default function PrivacyPolicy() {
   return (
@@ -8,10 +9,19 @@ export default function PrivacyPolicy() {
       {/* Navigation */}
       <nav className="px-6 py-4 border-b border-gray-100">
         <div className="max-w-6xl mx-auto flex justify-between items-center">
-          <Link href="/" className="text-2xl font-bold text-orange-500 hover:text-orange-600 transition-colors">
+          <Link
+            href="/"
+            className="text-2xl font-bold text-orange-500 hover:text-orange-600 transition-colors flex items-center space-x-2 gap-2"
+          >
+            <div className="p-2 bg-orange-500 rounded-lg backdrop-blur-sm">
+              <Zap className="w-5 h-5 stroke-white" />
+            </div>
             Formup
           </Link>
-          <Link href="/" className="text-gray-600 hover:text-orange-500 transition-colors">
+          <Link
+            href="/"
+            className="text-gray-600 hover:text-orange-500 transition-colors"
+          >
             ← Back to Home
           </Link>
         </div>
@@ -28,7 +38,7 @@ export default function PrivacyPolicy() {
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-8">
               Privacy Policy
             </h1>
-            
+
             <div className="prose prose-lg max-w-none">
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
@@ -40,7 +50,8 @@ export default function PrivacyPolicy() {
                   Your Privacy Matters
                 </h2>
                 <p className="text-green-700 text-lg leading-relaxed">
-                  Formup does not collect or store any user data. All data is generated locally in your browser.
+                  Formup does not collect or store any user data. All data is
+                  generated locally in your browser.
                 </p>
               </motion.div>
 
@@ -55,9 +66,11 @@ export default function PrivacyPolicy() {
                     Data Collection
                   </h2>
                   <p className="text-gray-700 text-lg leading-relaxed">
-                    Formup operates entirely within your browser and does not transmit any information to external servers. 
-                    The extension generates random test data locally and fills forms without collecting, storing, or 
-                    transmitting any personal information.
+                    Formup operates entirely within your browser and does not
+                    transmit any information to external servers. The extension
+                    generates random test data locally and fills forms without
+                    collecting, storing, or transmitting any personal
+                    information.
                   </p>
                 </section>
 
@@ -66,8 +79,11 @@ export default function PrivacyPolicy() {
                     Permissions
                   </h2>
                   <p className="text-gray-700 text-lg leading-relaxed">
-                    Formup requires permission to access web pages only to detect and fill form fields. 
-                    {"This permission is used solely for the extension's core functionality and no data is extracted or stored."}
+                    Formup requires permission to access web pages only to
+                    detect and fill form fields.
+                    {
+                      "This permission is used solely for the extension's core functionality and no data is extracted or stored."
+                    }
                   </p>
                 </section>
 
@@ -76,8 +92,9 @@ export default function PrivacyPolicy() {
                     Third-Party Services
                   </h2>
                   <p className="text-gray-700 text-lg leading-relaxed">
-                    Formup does not integrate with any third-party analytics or tracking services. 
-                    The extension operates completely offline regarding data processing.
+                    Formup does not integrate with any third-party analytics or
+                    tracking services. The extension operates completely offline
+                    regarding data processing.
                   </p>
                 </section>
 
@@ -86,8 +103,9 @@ export default function PrivacyPolicy() {
                     Updates to Privacy Policy
                   </h2>
                   <p className="text-gray-700 text-lg leading-relaxed">
-                    Any changes to this privacy policy will be reflected in future versions of the extension. 
-                    We are committed to maintaining the privacy-first approach of Formup.
+                    Any changes to this privacy policy will be reflected in
+                    future versions of the extension. We are committed to
+                    maintaining the privacy-first approach of Formup.
                   </p>
                 </section>
 
@@ -96,9 +114,10 @@ export default function PrivacyPolicy() {
                     Contact Us
                   </h2>
                   <p className="text-gray-700 text-lg leading-relaxed">
-                    If you have any questions about this privacy policy, please contact us at{' '}
-                    <a 
-                      href="mailto:githubvaibhav5@gmail.com" 
+                    If you have any questions about this privacy policy, please
+                    contact us at{" "}
+                    <a
+                      href="mailto:githubvaibhav5@gmail.com"
                       className="text-orange-500 hover:text-orange-600 transition-colors font-medium"
                     >
                       githubvaibhav5@gmail.com
@@ -115,10 +134,11 @@ export default function PrivacyPolicy() {
               className="mt-12 text-center"
             >
               <p className="text-gray-500 text-sm">
-                Last updated: {new Date().toLocaleDateString('en-US', { 
-                  year: 'numeric', 
-                  month: 'long', 
-                  day: 'numeric' 
+                Last updated:{" "}
+                {new Date().toLocaleDateString("en-US", {
+                  year: "numeric",
+                  month: "long",
+                  day: "numeric",
                 })}
               </p>
             </motion.div>
@@ -126,5 +146,5 @@ export default function PrivacyPolicy() {
         </div>
       </section>
     </div>
-  )
+  );
 }
