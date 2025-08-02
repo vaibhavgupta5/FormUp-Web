@@ -20,7 +20,7 @@
 - Fully offline – no tracking, no external APIs
 - Works on any standard HTML form
 
-Check Code - [https://github.com/vaibhavgupta5/FormUp](https://github.com/vaibhavgupta5/FormUp)
+Extension Code - [https://github.com/vaibhavgupta5/FormUp](https://github.com/vaibhavgupta5/FormUp)
 
 ---
 
