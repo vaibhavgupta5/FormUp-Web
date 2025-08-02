@@ -1,36 +1,79 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# ⚡FormUp – Instantly Fill Forms with Dummy Data
+<img width="1280" height="800" alt="formup-new" src="https://github.com/user-attachments/assets/029d8152-8d50-4bc9-9797-d7945b2226f2" />
 
-## Getting Started
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+**FormUp** is a lightweight browser extension for developers and testers. It lets you **instantly fill forms** on any webpage with random but realistic data — perfect for rapid testing.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+##  🧪 Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Fills inputs, textareas, and select dropdowns
+- Random but realistic:
+  - Names
+  - Emails
+  - Numbers
+  - Phone numbers
+  - Text
+- One-click usage from your browser toolbar
+- Fully offline – no tracking, no external APIs
+- Works on any standard HTML form
 
-## Learn More
+Extension Code - [https://github.com/vaibhavgupta5/FormUp](https://github.com/vaibhavgupta5/FormUp)
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📦 Download & Install
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+**Download ZIP**  
+[Click here to download FormUp](https://drive.google.com/file/d/1wvC8HNphoaygi7Z2ChR7Cnn57D85cBGj/view?usp=sharing)
 
-## Deploy on Vercel
+**Install in Chrome or Edge or Brave**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Open `chrome://extensions/` or `edge://extensions/`
+2. Enable **Developer mode** (toggle in the top-right)
+3. Click **Load unpacked**
+4. Select the extracted folder from the downloaded `.zip`
+5. Done! You’ll see FormUp in your extensions toolbar
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🚀 How to Use
+
+1. Open any webpage with a form
+2. Click the **FormUp** extension icon
+3. Click the **"Fill Form"** button
+4. Watch all fields auto-fill with dummy values
+
+---
+
+## 🧩 Built With
+
+- [Next.js](https://nextjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Plasmo](https://docs.plasmo.com/)
+- [Framer Motion](https://www.framer.com/motion/)
+
+---
+
+## 🔒 Privacy
+
+- 100% client-side
+- No data collection or tracking
+- No external API calls
+
+---
+
+## 👨‍💻 Author
+
+**Vaibhav Gupta**  
+[githubvaibhav5@gmail.com](mailto:githubvaibhav5@gmail.com)  
+[GitHub Profile](https://github.com/githubvaibhav5)
+
+---
+
+## 📄 License
+
+MIT License – Free to use, modify, and distribute.
+
