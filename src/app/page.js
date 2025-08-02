@@ -62,12 +62,7 @@ export default function Home() {
                 stroke="currentColor"
                 aria-label="Form filling icon"
               >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
-                />
+               <Zap/>
               </motion.svg>
             </motion.div>
 
@@ -92,6 +87,7 @@ export default function Home() {
               whileTap={{ scale: 0.95 }}
               className="bg-gradient-to-r from-orange-500 to-yellow-400 text-white px-8 py-4 rounded-lg text-lg font-semibold shadow-lg hover:shadow-xl transition-shadow"
               aria-label="Download Formup Chrome Extension"
+              onClick={() => window.open('https://github.com/vaibhavgupta5/FormUp', '_blank')}
             >
               Get the Extension
             </motion.button>
