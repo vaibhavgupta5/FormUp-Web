@@ -179,7 +179,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="border-t border-gray-100 px-6 py-8">
         <div className="max-w-6xl mx-auto text-center text-gray-600">
-          <p>&copy; 2025 FormUp. Made with ❤️ by Vaibhav.</p>
+          <p>&copy; 2025 FormUp. Made with ❤️ by <a href="https://github.com/vaibhavgupta5" target="_blank" rel="noopener noreferrer"><b>Vaibhav.</b></a></p>
         </div>
       </footer>
     </div>
