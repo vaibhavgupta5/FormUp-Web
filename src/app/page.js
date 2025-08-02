@@ -1,5 +1,6 @@
 'use client'
 import { motion } from 'framer-motion'
+import { Zap } from 'lucide-react'
 import Link from 'next/link'
 
 export default function Home() {
@@ -12,11 +13,11 @@ export default function Home() {
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
-            className="text-2xl font-bold text-orange-500"
+            className="text-2xl font-bold text-orange-500 flex items-center space-x-2 hover:text-orange-600 transition-colors gap-2"
           >
-            <div className="p-2 bg-white/20 rounded-lg backdrop-blur-sm">
-            <Zap className="w-5 h-5" />
-          </div>
+            <div className="p-2 bg-orange-500 rounded-lg backdrop-blur-sm">
+              <Zap className="w-5 h-5 stroke-white" />
+            </div>
             Formup
           </motion.div>
           <motion.div
