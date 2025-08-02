@@ -14,6 +14,9 @@ export default function Home() {
             transition={{ duration: 0.5 }}
             className="text-2xl font-bold text-orange-500"
           >
+            <div className="p-2 bg-white/20 rounded-lg backdrop-blur-sm">
+            <Zap className="w-5 h-5" />
+          </div>
             Formup
           </motion.div>
           <motion.div
@@ -159,7 +162,7 @@ export default function Home() {
               Get in Touch
             </h2>
             <p className="text-xl text-gray-600 mb-8">
-              Have questions or feedback? We'd love to hear from you.
+              {"Have questions or feedback? We'd love to hear from you."}
             </p>
             <motion.a
               href="mailto:githubvaibhav5@gmail.com"

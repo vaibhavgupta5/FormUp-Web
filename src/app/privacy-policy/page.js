@@ -67,7 +67,7 @@ export default function PrivacyPolicy() {
                   </h2>
                   <p className="text-gray-700 text-lg leading-relaxed">
                     Formup requires permission to access web pages only to detect and fill form fields. 
-                    This permission is used solely for the extension's core functionality and no data is extracted or stored.
+                    {"This permission is used solely for the extension's core functionality and no data is extracted or stored."}
                   </p>
                 </section>
 
